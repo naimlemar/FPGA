@@ -3,6 +3,31 @@
 
 This project delves into the synchronization of multiple Nios II processors on the Terasic FPGA DE2-115 board. The primary aim is to foster coordination among these processors, which is a critical facet for achieving efficiency in multi-core systems. A matrix multiplication application is utilized to validate the synchronization and to evaluate the system's efficacy, serving as a fundamental computational benchmark test.
 
+![Block_Diagram for Core-Configuration](Images/01_block_diagram_for_core-configuration.png)
+
+![Core-Configuration with Components Connectivity](Images/02_core-configuration_with_components_connectivity.png)
+
+![Nios Multicore Block Diagram](Images/03_nios_multicore-block_diagram.png)
+
+![Nios Multicore Block Diagram](Images/04_multi-core_system_configuration_and_components_connectivity_1.png)
+
+![Multi-core System Configuration and Components Connectivity](Images/05_multi-core_system_configuration_and_components_connectivity_2.png)
+
+![Nios Multi-core Compilation Report](Images/06_nios_multicore-compilation_report.png)
+
+![Downloading the .sof file into the Terasic DE2-115 Board](Images/07_downloading_the_.sof_file_into_the_Terasic_DE2-115_board.png)
+
+![Flow Chart for Source Code](Images/08_flow_chart_for_source_code.png)
+
+![Method for Manual BSP Generation](Images/09_method_for_manual_BSP_generation.png)
+
+![Execution of Bash Script in Nios-II Command Shell](Images/10_execution_of_bash_script_in_Nios-II_command_shell.png)
+
+![Nios Multi-core Performance Graph](Images/11_nios_multicore-performance_graph.png)
+
+![Efficiency vs. Core Graph](Images/12_efficiency_vs._core_graph.png)
+
+
 ## System Design
 
 Utilizing the Quartus Prime software tool, a system comprising nine cores was designed. The main processor takes on a crucial role in overseeing data distribution and synchronization amongst the auxiliary processors. This not only assures data integrity but also facilitates the efficient execution of the matrix multiplication operation by each processor.
