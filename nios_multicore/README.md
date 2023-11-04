@@ -47,6 +47,7 @@ In my multi-core Nios II setup, I bundled the processor, RAM, ROM, and two mailb
 To view a core's interior, right-click on any of the 9 cores and select 'Drill into subsystem'.
 
 ![Core-Configuration with Components Connectivity](Images/02_core-configuration_with_components_connectivity.png)
+
 To go back to the larger view, right click over any module and choose Move up.
 
 The images displayed below illustrate the connectivity of components within the entire system. They also highlight the instantiation of nine cores, showcasing the structured arrangement and interlinkages among the system's integral parts. 
