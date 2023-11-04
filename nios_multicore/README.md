@@ -1,5 +1,5 @@
 # Performance Analysis of Multi-Core SoPC on Terasic FPGA DE2-115 Board
-####A Project Focused on Leveraging Multi-Core Architecture on FPGA for Efficient Matrix Multiplicatoin
+#### A Project Focused on Leveraging Multi-Core Architecture on FPGA for Efficient Matrix Multiplicatoin
 
 This project is centered on the synchronization of multiple Nios II processors on the Terasic FPGA DE2-115 board. The primary objective is to ensure coordination among these processors, a crucial aspect for efficient multi-core systems. To validate the synchronization and assess the system's efficacy, a matrix multiplication application is employed which is a fundamental computational task as benchmark test.
 
