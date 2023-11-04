@@ -1,7 +1,9 @@
-# Performance Analysis of Multi-Core SoPC on Terasic FPGA DE2-115 Board
+# Performance Analysis of Multi-Core SoPC on Terasic FPGA DE2-115 Development Board
 #### A Project Focused on Leveraging Multi-Core Architecture on FPGA for Efficient Matrix Multiplicatoin
 
 This project is centered on the synchronization of multiple Nios II processors on the Terasic FPGA DE2-115 board. The primary objective is to ensure coordination among these processors, a crucial aspect for efficient multi-core systems. To validate the synchronization and assess the system's efficacy, a matrix multiplication application is employed which is a fundamental computational task as benchmark test.
+
+![Terasic DE2-115 Development Board](00_terasic_DE2-115_development_board.png)
 
 ## Introduction
 The Nios II processor by Intel is a type of processor that works well on FPGAs. It's flexible and can be customized, making it a popular choice for special-purpose systems. By using multiple Nios II processors together, you can do parallel processing effectively, like speeding up matrix multiplication. Therefore, the goal of this project is to build a system that uses multiple Nios II processors to do matrix multiplication on a Terasic DE2-115 board. 
